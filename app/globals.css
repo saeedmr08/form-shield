@@ -1,0 +1,36 @@
+:root {
+  --slag: #1a1c1f;
+  --plate: #2a2e33;
+  --copper: #c47a3a;
+  --copper-bright: #e0934a;
+  --steel: #9aa3ad;
+  --spark: #f2ebe3;
+  --font-display: "Syne", "Avenir Next", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  color: var(--spark);
+  font-family: var(--font-body);
+  background:
+    linear-gradient(125deg, transparent 40%, rgba(196, 122, 58, 0.12) 40%, transparent 70%),
+    repeating-linear-gradient(
+      90deg,
+      #15171a,
+      #15171a 2px,
+      #1b1e22 2px,
+      #1b1e22 48px
+    ),
+    var(--slag);
+}
+
+a {
+  color: var(--copper-bright);
+}
